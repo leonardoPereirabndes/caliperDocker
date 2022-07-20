@@ -42,4 +42,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/cosmos_ambiente:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/caliper_teste:latest
